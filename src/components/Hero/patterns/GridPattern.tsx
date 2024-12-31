@@ -1,7 +1,7 @@
 export function GridPattern() {
   return (
     <div className="absolute w-1/2 opacity-20 z-20 top-40 right-20">
-      <div className="grid grid-cols-4 gap-2 transform-gpu hover:scale-110 transition-transform duration-700">
+      <div className="grid grid-cols-4 gap-2 transform-gpu transition-transform duration-700">
         {Array.from({ length: 36 }).map((_, i) => (
           <div 
             key={i} 
