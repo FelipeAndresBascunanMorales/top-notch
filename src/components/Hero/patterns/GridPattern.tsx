@@ -1,8 +1,8 @@
 export function GridPattern() {
   return (
-    <div className="absolute w-1/2 opacity-20 z-20 top-40 right-20">
-      <div className="grid grid-cols-4 gap-2 transform-gpu transition-transform duration-700">
-        {Array.from({ length: 36 }).map((_, i) => (
+    <div className="absolute w-full opacity-20 z-10 top-24">
+      <div className="grid grid-cols-6 gap-2 transform-gpu transition-transform duration-700">
+        {Array.from({ length: 54 }).map((_, i) => (
           <div 
             key={i} 
             className="group relative"
@@ -12,7 +12,7 @@ export function GridPattern() {
             }}
           >
             <div 
-              className="w-full h-12 rounded transform transition-all duration-200 group-hover:scale-125 group-hover:rotate-45"
+              className="w-full h-24 rounded transform transition-all duration-200 group-hover:scale-110 group-hover:rotate-45"
               style={{ 
                 animation: `matrix-pulse ${3 + i % 2}s ease-in-out infinite`,
                 animationDelay: `${i * 0.1}s`,

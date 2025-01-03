@@ -21,7 +21,7 @@ export function Hero() {
       <GeometricPatterns />
 
       {/* Main Content */}
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-6 relative z-10 pointer-events-none">
         <HeroContent />
       </div>
     </div>

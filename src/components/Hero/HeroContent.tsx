@@ -2,7 +2,7 @@ import { ChevronRight } from 'lucide-react';
 
 export function HeroContent() {
   return (
-    <div className="max-w-3xl relative z-10 pointer-events-none">
+    <div className="max-w-3xl relative z-10">
       <div className="relative">
         <h1 className="text-6xl md:text-7xl font-bold text-white mb-8">
           <span className="relative inline-block">
@@ -21,7 +21,7 @@ export function HeroContent() {
         that elevate your operations to new heights.
       </p>
 
-      <button className="group bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20 relative overflow-hidden">
+      <button className="group bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20 relative overflow-hidden pointer-events-auto">
         <span className="relative z-10 flex items-center gap-2">
           Let's Build Together
           <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
