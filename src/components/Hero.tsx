@@ -21,7 +21,7 @@ export function Hero() {
             <span className="text-blue-400">Delivering</span> Top-Notch Software Solutions for Modern Businesses
           </h1>
           <p className="text-xl text-gray-300 mb-8">
-            We craft exceptional business tools and custom software solutions that elevate your operations to new heights.
+            I craft exceptional business tools and custom software solutions that elevate your operations to new heights.
           </p>
           <button className="group bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 flex items-center gap-2">
             Let's Build Together

@@ -18,7 +18,7 @@ export function Contact() {
               Ready to Elevate Your Business?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Let's discuss how we can transform your business tools to the next level
+              Let's discuss how I can transform your business tools to the next level
             </p>
             
             <div className="pt-8">

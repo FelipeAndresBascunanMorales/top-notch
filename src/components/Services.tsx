@@ -40,7 +40,7 @@ export function Services() {
             <div className="absolute -bottom-4 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-red-500 to-yellow-500" />
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mt-8">
-            We specialize in developing powerful business tools that drive growth and efficiency
+            I specialize in developing powerful business tools that drive growth and efficiency
           </p>
         </div>
         
